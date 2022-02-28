@@ -1,0 +1,8 @@
+---
+
+ssl_dir:  "/etc/ssl/nginx_self_signed"
+ssl_cert: "{{ ssl_dir }}/cert.pem"
+ssl_key:  "{{ ssl_dir }}/private_key.pem"
+ssl_csr:  "{{ ssl_dir }}/cert.csr"
+
+https_port: 443
